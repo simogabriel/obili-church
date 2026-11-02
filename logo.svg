@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 154" role="img" aria-labelledby="title desc">
+  <title id="title">Christ Embassy Obili</title>
+  <desc id="desc">Christ Embassy Obili church logo</desc>
+  <rect width="600" height="154" fill="#f8f6f1"/>
+  <ellipse cx="104" cy="74" rx="77" ry="43" fill="none" stroke="#b18a58" stroke-width="8" transform="rotate(-22 104 74)"/>
+  <ellipse cx="105" cy="74" rx="62" ry="34" fill="none" stroke="#718078" stroke-width="6" transform="rotate(22 105 74)"/>
+  <circle cx="105" cy="74" r="25" fill="#202c28"/>
+  <style>
+    .bible-page{fill:#c7a77a;stroke:#f1e5d2;stroke-width:.75;stroke-linejoin:round}
+    .bible-page-right{transform-box:view-box;transform-origin:105px 83px;animation:turn-page 4.8s ease-in-out infinite}
+    .bible-rule{fill:none;stroke:#756044;stroke-width:.8;stroke-linecap:round;opacity:.8}
+    .bible-cross{stroke:#dfc99f;stroke-width:1.8;stroke-linecap:round;animation:cross-glow 4.8s ease-in-out infinite}
+    @keyframes turn-page{0%,18%,100%{transform:rotate(0)}38%,58%{transform:rotate(-5deg)}72%{transform:rotate(1deg)}}
+    @keyframes cross-glow{0%,100%{opacity:.65}42%,58%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.bible-page-right,.bible-cross{animation:none}}
+  </style>
+  <path class="bible-page" d="M105 80c-4-3-8-4-13-4v13c5-.3 9 1.3 13 4z"/>
+  <path class="bible-page bible-page-right" d="M105 80c4-3 8-4 13-4v13c-5-.3-9 1.3-13 4z"/>
+  <path class="bible-rule" d="M105 80v13m-10-13c3 .2 6 1.1 8 2.5m7-2.5c-2 .2-4 .8-6 1.7m-9 2.3c3 .2 6 1 8 2.2m7-2.2c-2 .2-4 .7-6 1.4"/>
+  <path class="bible-cross" d="M105 67v8m-3-5h6"/>
+  <text x="195" y="70" font-family="Arial,sans-serif" font-size="37" font-weight="700" letter-spacing="1" fill="#202c28">CHRIST</text>
+  <text x="195" y="108" font-family="Arial,sans-serif" font-size="37" font-weight="700" letter-spacing="1" fill="#202c28">EMBASSY</text>
+  <text x="197" y="133" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="4" fill="#987444">OBILI · YAOUNDÉ</text>
+</svg>
